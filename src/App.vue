@@ -1,7 +1,7 @@
 <template>
   <component
     :is = "activeComponent"
-    @isCorrectEvent = "activeComponent = $event"
+    @activeComponentEvent = "activeComponent = $event"
   >
 
   </component>
@@ -16,11 +16,11 @@ import Celebrate from "./components/Celebrate";
 export default {
   data(){
     return{
-      activeComponent: "app-game-card"
+      activeComponent: "app-game-cards"
     }
   },
   components: {
-    appGameCard: GameCards,
+    appGameCards: GameCards,
     appCelebrate: Celebrate,
     appFailure: Failure
   }

@@ -9,7 +9,7 @@
 export default {
   methods: {
     newGame(){
-
+      this.$emit("activeComponentEvent", "app-game-cards")
     }
   }
 }
