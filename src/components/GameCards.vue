@@ -36,11 +36,11 @@ export default {
       answer: {},
       activeCard: "app-default-card",
       cards: [
-        {id:1, component: "app-card", image: "/src/assets/card-1.jpg"},
-        {id:2, component: "app-card", image: "/src/assets/card-2.jpg"},
-        {id:3, component: "app-card", image: "/src/assets/card-3.jpg"},
-        {id:4, component: "app-card", image: "/src/assets/card-4.jpg"},
-        {id:5, component: "app-card", image: "/src/assets/card-5.jpg"}
+        {id:1, component: "app-card", image: "/src/assets/card-1.jpeg"},
+        {id:2, component: "app-card", image: "/src/assets/card-2.jpeg"},
+        {id:3, component: "app-card", image: "/src/assets/card-3.jpeg"},
+        {id:4, component: "app-card", image: "/src/assets/card-4.jpeg"},
+        {id:5, component: "app-card", image: "/src/assets/card-5.jpeg"}
       ]
     }
   },
