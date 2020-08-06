@@ -3,7 +3,12 @@
     <h1 class = "title">Mü <span>Nerede</span><strong>?</strong></h1>
     <h4 class = "description">Açık kartlardan birini seçtikten sonra, kapalı olan karta tıklayınız</h4>
     <div class = "container">
-      <app-card v-for="card in cards" :card = "card"></app-card>
+      <app-card
+          :class = "{'shadow': selectedCard == card.id}"
+          @click.native = "selectedCard = card.id"
+          v-for = "card in cards"
+          :card = "card">
+      </app-card>
     </div>
     <div class="container">
       <app-default-card></app-default-card>
@@ -18,6 +23,7 @@ import DefaultCard from "./DefaultCard";
 export default {
   data(){
     return{
+      selectedCard: null,
       cards: [
         {id:1, compnent: "app-card", image: "/src/assets/card-1.jpg"},
         {id:2, compnent: "app-card", image: "/src/assets/card-2.jpg"},
@@ -54,6 +60,10 @@ export default {
   .description{
     color: gray;
     text-align: center;
+  }
+  .shadow{
+    box-shadow: 0px 5px 48px #30969f !important ;
+    transition: box-shadow .5s;
   }
 
 </style>
