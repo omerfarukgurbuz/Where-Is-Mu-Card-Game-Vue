@@ -1,8 +1,8 @@
 {
   "name": "pogaca-nerede-kart-oyunu",
-  "description": "Poğaça Nerede Kart Tahmin Oyunu | Vue.JS",
+  "description": "Mü Nerede Kart Tahmin Oyunu | Vue.JS",
   "version": "1.0.0",
-  "author": "gkandemi <gokhan@gkandemir.com>",
+  "author": "omerfarukgurbuz <omer.gurbuz@kletech.com>",
   "license": "MIT",
   "private": true,
   "scripts": {

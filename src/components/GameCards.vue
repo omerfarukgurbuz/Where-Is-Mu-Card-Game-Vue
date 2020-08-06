@@ -1,6 +1,6 @@
 <template>
   <div class = "game-area">
-    <h1 class = "title">Mü <span>Nerede</span><strong>?</strong></h1>
+    <h1 class = "title">Mü <span>Nerede</span><strong> ?</strong></h1>
     <h4 class = "description">Açık kartlardan birini seçtikten sonra, kapalı olan karta tıklayınız</h4>
     <div class = "container">
      <transition-group name = "rotate-all" class = "container" appear>

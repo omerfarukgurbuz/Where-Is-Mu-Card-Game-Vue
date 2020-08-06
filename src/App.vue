@@ -1,11 +1,12 @@
 <template>
-  <transition name="slideContainer" mode="out-in">
+  <transition-group name="slideContainer" mode="out-in">
     <component
+        key="mainComponent"
         :is = "activeComponent"
         @activeComponentEvent = "activeComponent = $event"
-    >
-    </component>
-  </transition>
+    ></component>
+    <canvas key="canvas" id="canvas" v-show="activeComponent === 'app-celebrate'"></canvas>
+  </transition-group>
 </template>
 <script>
 
@@ -25,7 +26,6 @@ export default {
     appCelebrate: Celebrate,
     appFailure: Failure
   }
-
 
 }
 </script>
