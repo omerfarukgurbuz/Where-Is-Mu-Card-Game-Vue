@@ -27,4 +27,8 @@ export default {
 
 }
 </script>
-<style></style>
+<style>
+  body{
+    font-family: fantasy;
+  }
+</style>
