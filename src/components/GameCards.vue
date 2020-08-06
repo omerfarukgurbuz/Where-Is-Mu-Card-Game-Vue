@@ -3,19 +3,22 @@
     <h1 class = "title">Mü <span>Nerede</span><strong>?</strong></h1>
     <h4 class = "description">Açık kartlardan birini seçtikten sonra, kapalı olan karta tıklayınız</h4>
     <div class = "container">
+      <app-card v-for="i in 5"></app-card>
     </div>
     <div class="container">
-      <app-card v-for="i in 5"></app-card>
+      <app-default-card></app-default-card>
     </div>
   </div>
 </template>
 
 <script>
 import Card from "./Card"
+import DefaultCard from "./DefaultCard";
 
 export default {
   components:{
-    appCard: Card
+    appCard: Card,
+    appDefaultCard: DefaultCard
   }
 }
 </script>

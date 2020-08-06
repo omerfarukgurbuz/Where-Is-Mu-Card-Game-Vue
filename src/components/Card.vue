@@ -17,7 +17,7 @@ export default {
   border-radius: 5px;                                         /* ovallestirme icin */
   border: 1px solid #666;
   background-color: purple;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .card:hover{
   box-shadow: 0px 5px 48px #666;
