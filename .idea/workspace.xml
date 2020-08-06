@@ -13,7 +13,6 @@
     <list default="true" id="a77ec1ac-78ec-43f2-b0d4-24d4ac5f8c0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultCard.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/GameCards.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameCards.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596696614280</updated>
-      <workItem from="1596696615712" duration="5525000" />
+      <workItem from="1596696615712" duration="6536000" />
     </task>
     <servers />
   </component>

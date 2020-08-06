@@ -1,12 +1,12 @@
 <template>
   <div class = "card">
-    <img src = "../assets/card-1.jpg" alt="">
+    <img :src = "card.image" alt="">
   </div>
 </template>
 
 <script>
 export default {
-
+  props: ["card"]
 }
 </script>
 
