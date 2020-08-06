@@ -6,7 +6,7 @@
      <transition-group name = "rotate-all" class = "container" appear>
        <app-card
            :key = "card.id"
-           :class = "{'shadow': selectedCard == card.id}"
+           :class = "{'shadow': selectedCard === card.id}"
            @click.native = "selectedCard = card.id"
            v-for = "card in cards"
            :card = "card">
@@ -60,10 +60,12 @@ export default {
       }else{
         this.activeCard = answer.component;
         setTimeout(() => {
-          if(answer.id == this.selectedCard){
-            alert("Doğru")
+          if(answer.id === this.selectedCard){
+            alert("Doğru");
+            this.$emit("isCorrectEvent", "app-celebrate");
           }else{
-            alert("Yanlış")
+            alert("Yanlış");
+            this.$emit("isCorrectEvent", "app-failure");
           }
         },1000)
       }
