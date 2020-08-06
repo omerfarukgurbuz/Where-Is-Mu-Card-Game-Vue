@@ -3,12 +3,15 @@
     <h1 class = "title">Mü <span>Nerede</span><strong>?</strong></h1>
     <h4 class = "description">Açık kartlardan birini seçtikten sonra, kapalı olan karta tıklayınız</h4>
     <div class = "container">
-      <app-card
-          :class = "{'shadow': selectedCard == card.id}"
-          @click.native = "selectedCard = card.id"
-          v-for = "card in cards"
-          :card = "card">
-      </app-card>
+     <transition-group name = "rotate-all" class = "container" appear>
+       <app-card
+           :key = "card.id"
+           :class = "{'shadow': selectedCard == card.id}"
+           @click.native = "selectedCard = card.id"
+           v-for = "card in cards"
+           :card = "card">
+       </app-card>
+     </transition-group>
     </div>
     <div class="container">
       <app-default-card></app-default-card>
@@ -45,7 +48,6 @@ export default {
   }
 }
 </script>
-
 <style scoped>
   .title{
     text-align: center;
@@ -63,6 +65,7 @@ export default {
     align-items: center;            /*dikey ortala*/
     margin-top: 50px;
   }
+
   .description{
     color: gray;
     text-align: center;
@@ -72,4 +75,23 @@ export default {
     transition: box-shadow .5s;
   }
 
+
+  /********************Acik  kart animasyonlari icin gerekli olan transition tanımlari**********************/
+
+
+  .rotate-all-enter{}
+  .rotate-all-enter-active{
+    animation: rotate-all ease-in-out 2s forwards;           /*yavas basla ortada hizlan yavas bit*/
+  }
+  .rotate-all-leave{}
+  .rotate-all-leave-active{}
+  
+  @keyframes rotate-all {
+    from{
+      transform: rotateY(0);
+    }
+    to{
+      transform: rotateY(1440deg);
+    }
+  }
 </style>
