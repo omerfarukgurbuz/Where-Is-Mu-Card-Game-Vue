@@ -24,6 +24,7 @@ export default {
   data(){
     return{
       selectedCard: null,
+      answer: {},
       cards: [
         {id:1, compnent: "app-card", image: "/src/assets/card-1.jpg"},
         {id:2, compnent: "app-card", image: "/src/assets/card-2.jpg"},
@@ -36,6 +37,11 @@ export default {
   components:{
     appCard: Card,
     appDefaultCard: DefaultCard
+  },
+  created() {
+    let answer = Math.ceil(Math.random()* this.cards.length);
+    this.answer = this.cards[answer-1];
+    console.log(this.answer);
   }
 }
 </script>
