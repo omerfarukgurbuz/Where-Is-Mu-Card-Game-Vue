@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a77ec1ac-78ec-43f2-b0d4-24d4ac5f8c0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/isItTheSame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Celebrate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Failure.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameCards.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fiMlsMjFKMJELJcX0b7g4IztBp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a77ec1ac-78ec-43f2-b0d4-24d4ac5f8c0e" name="Default Changelist" comment="" />
+      <created>1596696614280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596696614280</updated>
+      <workItem from="1596696615712" duration="1267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="711" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596696983102">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="711" y="326" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596696983102" />
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1596696710139">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596696710139" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1596696710139">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.center/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596696710139" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1596696710139">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.left/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596696710139" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1596696710139">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.right/-1920.-8.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596696710139" />
+  </component>
+</project>
