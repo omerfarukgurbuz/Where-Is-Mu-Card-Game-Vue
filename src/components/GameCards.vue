@@ -61,10 +61,8 @@ export default {
         this.activeCard = answer.component;
         setTimeout(() => {
           if(answer.id === this.selectedCard){
-            alert("Doğru");
             this.$emit("activeComponentEvent", "app-celebrate");
           }else{
-            alert("Yanlış");
             this.$emit("activeComponentEvent", "app-failure");
           }
         },1000)
@@ -134,18 +132,22 @@ export default {
   @keyframes rotate-in {
     from{
       transform: rotateY(90deg);
+      opacity:0;
     }
     to{
       transform: rotateY(0deg);
+      opacity:1;
     }
   }
 
   @keyframes rotate-out {
     from{
       transform: rotateY(0deg);
+      opacity:1;
     }
     to{
       transform: rotateY(90deg);
+      opacity:0;
     }
   }
 
